@@ -169,6 +169,7 @@ public class MainActivity extends Activity implements QueryInterface, KeyboardSc
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate()");
+        Toast.makeText(this,"这是我自己的KISS",Toast.LENGTH_SHORT).show();
 
         /*
          * Initialize preferences
